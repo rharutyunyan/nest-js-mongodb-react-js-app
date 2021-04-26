@@ -1,0 +1,12 @@
+/.git
+/.vscode
+node_modules
+/tribe-src
+
+**/dist
+**/es
+**/esm
+**/lib
+**/node_modules
+**/fonts
+**/*.less
