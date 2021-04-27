@@ -67,7 +67,7 @@ const Sidebar = (props) => {
             <Content style={{ margin: '16px' }}>
               <div className="site-layout-background">{props.children}</div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Social Feed ©2020</Footer>
+            <Footer style={{ textAlign: 'center' }}>Lokky ©2020</Footer>
           </Layout>
         </Layout>
       </Col>
