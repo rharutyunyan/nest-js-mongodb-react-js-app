@@ -23,4 +23,8 @@ export class ReviewService {
   async getReview(userId): Promise<Review> {
     return this.reviewModel.findOne({ user: userId });
   }
+
+  async getReviews(): Promise<Review[]> {
+    return this.reviewModel.find();
+  }
 }
