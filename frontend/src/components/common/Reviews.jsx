@@ -39,7 +39,7 @@ const Reviews = ({ user = null }) => {
               modalVisible={modalVisible}
               review={review}
               setModalVisible={setModalVisible}
-              setReviews={setReview}
+              setReview={setReview}
               path={history.location.pathname}
             />
             {review && <Review key={review._id} review={review} myUserId={myUserId} />}
